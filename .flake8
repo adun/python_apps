@@ -1,0 +1,6 @@
+[flake8]
+# [bandit] S101 - Ignore use of assert detected in test files
+max-line-length = 88
+max-complexity = 8
+per-file-ignores = tests/*.py:S101
+inline-quotes = "
