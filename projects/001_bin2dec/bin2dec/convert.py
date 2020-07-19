@@ -1,7 +1,7 @@
 """The base file for all converters."""
 
 
-def bin2dec(self, n):
+def bin2dec(n):
     """Convert a binary number to decimal.
 
     Args:

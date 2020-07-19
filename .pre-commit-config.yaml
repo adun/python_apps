@@ -28,6 +28,7 @@ repos:
         -   flake8-debugger
         -   flake8-docstrings
         -   flake8-eradicate
+        -   flake8-flask
         -   flake8-implicit-str-concat
         -   flake8-import-order
         -   flake8-pytest
