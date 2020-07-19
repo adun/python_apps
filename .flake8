@@ -1,6 +1,8 @@
 [flake8]
 # [bandit] S101 - Ignore use of assert detected in test files
+# [docstrings] D100 - Ignore missing docstring in public test module
+# [docstrings] D103 - Ignore missing docstring in public test function
 max-line-length = 88
 max-complexity = 8
-per-file-ignores = tests/*.py:S101
+per-file-ignores = **/tests/*.py:S101,D100,D103
 inline-quotes = "
